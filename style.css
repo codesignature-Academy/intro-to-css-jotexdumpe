@@ -29,11 +29,6 @@
   align-items: center;
   color: #000;
 
-  
-
-}.header-nav a:hover {
-  background-color: #f0f0f0;
-  transition: 2s;
 }
 .hero-section {
   height: 100vh;
@@ -59,7 +54,9 @@
   background-color: #000;
   color: #fff;
   transition: 2s;
+  box-shadow: #000;
 }
 .hero-child:active {
   background-color: red;
+
 }
