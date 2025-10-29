@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header-bar {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  
+}
+.header-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 100px;
+  
+}
+.header-nav a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 80px;
+  align-items: center;
+  color: #000;
+
+}
+.hero-section {
+  height: 100vh;
+  min-width: 100%;
+  background-color: rgb(5, 239, 48);
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-child {
+  align-items: center;
+  margin: 80px;
+  padding: 10%;
+  background-color: gray;
+  cursor: pointer;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+.hero-child:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 2s;
+  box-shadow: #000;
+}
+.hero-child:active {
+  background-color: red;
+
+}
